@@ -3,6 +3,9 @@
 export default defineNuxtConfig({
   extends: '@nuxt/ui-pro',
   telemetry: false,
+  ui: {
+    icons: ['flag', 'heroicons', 'simple-icons', 'ph']
+  },
   modules: [
     'nuxt-time',
     'nuxt-gtag',
